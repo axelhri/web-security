@@ -62,3 +62,9 @@
 - accessing the server
 - code execution
 - data theft
+
+### Solutions
+
+- disable remote file execution `allow_url_include = Off` (php)
+- restrict access with permissions
+- validate and sanitize file paths received as input
