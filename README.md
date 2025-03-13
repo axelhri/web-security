@@ -40,3 +40,13 @@
 - list the trusted domains
 - disable internal dns resolution
 - form input validation
+
+## SQLi
+
+### Risks
+
+- inserting or modifying data in the database
+
+- bypassing permissions
+
+- executing commands on the server
