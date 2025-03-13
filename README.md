@@ -27,3 +27,10 @@
 
 - use csrf tokens to validate requests
 - checking referer header
+
+## SSRF
+
+### Risks
+
+- accessing internal ressources
+- using the server to attack other systems
