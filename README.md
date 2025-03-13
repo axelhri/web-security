@@ -22,3 +22,8 @@
 - taking control of someone else's account
 - modifications to sensitive data
 - deleting or stealing account
+
+### Solutions
+
+- use csrf tokens to validate requests
+- checking referer header
