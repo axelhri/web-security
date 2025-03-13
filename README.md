@@ -34,3 +34,9 @@
 
 - accessing internal ressources
 - using the server to attack other systems
+
+### Solutions
+
+- list the trusted domains
+- disable internal dns resolution
+- form input validation
