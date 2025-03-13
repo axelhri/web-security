@@ -13,7 +13,7 @@
 ### Solutions
 
 - control every form input with validation and sanitize
-- allow content only from the origin `Content-Security-Policy: default-src 'self';`
+- allow content only from the **origin** `Content-Security-Policy: default-src 'self';`
 
 ## CSRF
 
@@ -25,7 +25,7 @@
 
 ### Solutions
 
-- use csrf tokens to validate requests
+- use **csrf** tokens to validate requests
 - checking referer header
 
 ## SSRF
@@ -65,7 +65,7 @@
 
 ### Solutions
 
-- disable remote file execution `allow_url_include = Off` (php)
+- disable remote file execution `allow_url_include = Off` (**php**)
 - restrict access with permissions
 - validate and sanitize file paths received as input
 
@@ -74,16 +74,16 @@
 ### Risks
 
 - accessing sensitive files
-- ssrf exploitation
+- **ssrf** exploitation
 - bypassing security restrictions
 
 ### Solutions
 
-- disable external entity processing in xml parsers
-- use secure xml parsers that block external access
-- sanitize xml inputs
+- disable external entity processing in **xml** parsers
+- use secure **xml** parsers that block external access
+- sanitize **xml** inputs
 
 ## Global protection
 
-- `HTTPS` using TLS
-- setting up Constent Security Policy (CSP) to restrict loaded scripts
+- `HTTPS` using **TLS**
+- setting up **Constent Security Policy** (**CSP**) to restrict loaded scripts
