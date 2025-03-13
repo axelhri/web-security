@@ -46,15 +46,19 @@
 ### Risks
 
 - inserting or modifying data in the database
-
 - bypassing permissions
-
 - executing commands on the server
 
 ### Solutions
 
 - sanitize inputs
-
 - limit database privileges
-
 - limit permission
+
+### LFI / RFI
+
+### Risks
+
+- accessing the server
+- code execution
+- data theft
