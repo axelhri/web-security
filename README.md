@@ -82,3 +82,8 @@
 - disable external entity processing in xml parsers
 - use secure xml parsers that block external access
 - sanitize xml inputs
+
+## Global protection
+
+- `HTTPS` using TLS
+- setting up Constent Security Policy (CSP) to restrict loaded scripts
