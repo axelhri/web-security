@@ -50,3 +50,11 @@
 - bypassing permissions
 
 - executing commands on the server
+
+### Solutions
+
+- sanitize inputs
+
+- limit database privileges
+
+- limit permission
