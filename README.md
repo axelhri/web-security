@@ -14,3 +14,11 @@
 
 - control every form input with validation and sanitize
 - allow content only from the origin `Content-Security-Policy: default-src 'self';`
+
+## CSRF
+
+### Risks
+
+- taking control of someone else's account
+- modifications to sensitive data
+- deleting or stealing account
