@@ -76,3 +76,9 @@
 - accessing sensitive files
 - ssrf exploitation
 - bypassing security restrictions
+
+### Solutions
+
+- disable external entity processing in xml parsers
+- use secure xml parsers that block external access
+- sanitize xml inputs
