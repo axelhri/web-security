@@ -55,7 +55,7 @@
 - limit database privileges
 - limit permission
 
-### LFI / RFI
+## LFI / RFI
 
 ### Risks
 
@@ -68,3 +68,11 @@
 - disable remote file execution `allow_url_include = Off` (php)
 - restrict access with permissions
 - validate and sanitize file paths received as input
+
+## XXE
+
+### Risks
+
+- accessing sensitive files
+- ssrf exploitation
+- bypassing security restrictions
