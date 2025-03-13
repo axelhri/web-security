@@ -13,4 +13,4 @@
 ### Solutions
 
 - control every form input with validation and sanitize
-- `Content-Security-Policy: default-src 'self';`
+- allow content only from the origin `Content-Security-Policy: default-src 'self';`
