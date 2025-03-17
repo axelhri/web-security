@@ -4,25 +4,35 @@
 
 ## Introduction
 
-## Attacks types
+### Regulation (RGPD)
 
-### XSS
+### Attacks types
 
-### CSRF
+#### XSS
 
-### SSRF
+#### CSRF
 
-### SQLi
+#### SSRF
 
-### LFI / RFI
+#### SQLi
 
-### XXE
+#### LFI / RFI
+
+#### XXE
 
 ## Solutions
 
 ### API
 
+#### Communication
+
+#### Authentification
+
 ### Database
+
+#### Data
+
+#### Requests
 
 ### DOM
 
